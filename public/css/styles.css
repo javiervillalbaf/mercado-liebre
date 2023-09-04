@@ -1,0 +1,492 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 20px 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #666;
+    margin-left: 12px;
+    font-size: 24px;
+}
+
+.main-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.main-header-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-logo {
+    width: 50%;
+}
+
+.search-box {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0.3rem;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.search-txt {
+    height: 40px;
+    padding: 10px;
+    border: transparent;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.main-header-top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.banner {
+    padding-top: 12rem;
+}
+
+article {
+    margin: 10px;
+    background-color: #ffffff;
+    transition: box-shadow 700ms;
+}
+
+article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+
+.main-article {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+}
+
+.burger-menu {
+    width: 50px;
+    background-color: #1259c3;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    text-align:center;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.icon-footer {
+    color: #1259c3;
+    font-size: 30px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav{
+    display: none;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+img {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.slogan {
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 18px;
+}
+
+main section article i {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    color: #39b54a;
+    top: -15px;
+    transition: transform 700ms;
+}
+
+main section article i:hover {
+    transform: rotate(-90deg);
+}
+
+.precio {
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuento {
+    color: #39b54a;
+    font-size: 16px;
+    font-weight: normal;
+    width: 70%;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.main-footer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-div {
+    margin: 20px 15px;
+}
+
+.copyright {
+    padding-bottom: 40px;
+}
+
+.main-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 30px;
+}
+
+.main-form.login{
+    margin-top: 13rem;
+}
+
+.login-form-title{
+    padding-bottom: 20px;
+}
+
+.form-div {
+    margin-bottom: 20px;
+}
+
+.form-input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+}
+
+.form-btn {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #1259c3;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.form-btn:hover {
+    background-color: #0022AA;
+}
+
+.form-btn2 {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    margin-top: 10px;
+    background-color: rgb(255, 66, 66);
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.form-btn2:hover {
+    background-color: #f87685;
+}
+
+footer section div h2 {
+    margin-bottom: 10px;
+}
+
+footer section div i {
+    margin-bottom: 10px;
+}
+
+footer section div i:hover {
+    color: #EAC926;
+}
+
+.radio {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.radio-input {
+    display: none;
+} 
+
+.radio-radio {
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #cccccc;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.radio-radio::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #2266dc;
+    border-radius: 50%;
+
+    transform: scale(0);
+    transition: transform 0.15s;
+}
+
+.radio-input:checked + .radio-radio::after {
+    transform: scale(1);
+}
+
+.div-checkbox {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.checkbox-input {
+    display: none;
+} 
+
+.checkbox-box {
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #cccccc;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.checkbox-box::after{
+    content: '\2714';
+    color: #ffffff;
+}
+
+.checkbox-input:checked +.checkbox-box {
+    background: #2266dc;
+    border-color: #2266dc;
+}
+
+@media (min-width: 361px) {
+    .slogan {
+        display: flex;
+    }
+    .main-nav {
+        margin-top: 20px;
+    }
+    main section div.articulos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    main section div.articulos article{
+        width: 43%;
+    }
+    .banner {
+        padding-top: 10rem;
+    }
+    .precio, .descuento {
+        width: 50%;
+    }
+}
+
+@media (max-width: 769px){
+    .slogan {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 769px) {
+    .burger-menu {
+        display: none;
+    }
+    .main-header-top {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    .slogan {
+        max-width: 360px;
+        text-align: right;
+        width: 50%;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-nav ul {
+        display: flex;
+    }
+    .main-nav li {
+        margin: 0 5px;
+    }
+    .main-footer {
+        padding-top: 40px;
+        display: flex;
+    }
+    .banner {
+        padding-top: 10rem;
+    }
+    main section div.articulos article{
+        width: 22%;
+    }
+    .link-logo {
+        width: 33%;
+    }
+    
+    .search-box {
+        width: 33%;
+    }
+    .slogan {
+        width: 33%;
+    }
+    article:hover .descripcion {
+        visibility: visible;
+    }
+    .descripcion {
+        visibility: hidden;
+        margin-top: 7px;
+    }
+}
+
+@media (min-width: 1200px) {
+    main{
+        padding: 20px 100px;
+    }
+    .main-header-top, .main-nav {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-top {
+        align-items: center;
+    }
+    .main-nav li {
+        margin: 0 10px;
+    }
+    .main-nav a {
+        font-size: 19px;
+    }
+    .slogan {
+        margin: 0;
+        max-width: none;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .logo {
+        width: 250px;
+    }
+    .main-nav {
+        margin-top: 30px;
+    }
+    .search-txt {
+        width: 350px;
+    }
+}
